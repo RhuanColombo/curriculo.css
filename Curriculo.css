@@ -1,0 +1,170 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #adc6ff;
+    color: #1d1537;
+    text-emphasis-color: #bf51fc;
+}
+
+header, main {
+    margin-left: 2%;
+    padding-top: 15px;
+}
+
+main {
+    text-align: left;
+}
+
+.table {margin-left: auto;
+    margin-right: auto;}
+
+table, th, td {
+    border: 1px solid;}
+
+header {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {font-size: 3rem;}
+
+footer, nav {
+    background: #1d1537;
+    color: #bf51fc;
+}
+
+footer h3 {
+    margin-left: 10px;
+    padding-top:2%;
+}
+footer ul {
+    margin-left: 10px;
+    list-style-type: none;
+    text-indent: -2%;
+}
+footer p {
+    margin-left: 10px;
+    padding-bottom: 2%;
+}
+
+a:link {
+    color: white;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: green;
+}
+a:active {
+    color: purple;
+}
+
+/*Telas menores abaixo*/
+
+@media only screen and (max-width: 480px)
+{
+    nav {
+        position: left;
+        margin: 0;
+        padding: 0;
+        width: 250px;
+        position:fixed;
+        background: #1d153752;
+    }
+    
+    nav ul li {
+        list-style-type:none;
+        display:block;
+        text-align: center;
+        text-indent:-50px;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 769px)
+{
+    nav {
+        position: left;
+        margin: 0;
+        padding: 0;
+        width: 250px;
+        text-indent:-40px;
+        position:fixed;
+        background: #1d153752;
+    }
+    
+    nav ul li {
+        list-style-type:none;
+        display:block;
+        text-align: center;
+        text-indent:-40px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+    nav {
+        position: left;
+        margin: 0;
+        padding: 0;
+        width: 250px;
+        position:fixed;
+        background: #1d153752;
+    }
+    
+    nav ul li {
+        list-style-type:none;
+        display:block;
+        text-align: center;
+        text-indent:-40px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1119px)
+{
+    nav {
+        position: left;
+        margin: 0;
+        padding: 0;
+        width: 250px;
+        position:fixed;
+        background: #1d153752;
+    }
+    
+    nav ul li {
+        list-style-type:none;
+        display:block;
+        text-align: center;
+        text-indent:-40px;
+    }
+}
+
+/*Telas maiores abaixo*/
+
+@media only screen and (min-width: 1200px) and (max-width: 1919px)
+{
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    nav ul li {
+        list-style-type:none;
+        display:inline;
+        margin-left: 15%;
+    }
+}
+@media only screen and (min-width: 1920px)
+{
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    nav ul li {
+        list-style-type:none;
+        display:inline;
+        margin-left: 15%;
+    }
+}
